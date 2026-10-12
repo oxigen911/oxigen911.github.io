@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Información sobre la automatización privada de cuentas de cobro.">
+  <title>Automatización de cuentas de cobro</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#5d6678; --accent:#3157d5; --line:#dfe4ee; --paper:#ffffff; --wash:#f5f7fb; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--wash); line-height:1.65; }
+    main { width:min(760px,calc(100% - 32px)); margin:64px auto; background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(28px,6vw,64px); box-shadow:0 18px 55px rgba(23,32,51,.08); }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:.78rem; }
+    h1 { font-size:clamp(2rem,6vw,3.5rem); line-height:1.05; letter-spacing:-.04em; margin:.45rem 0 1.25rem; }
+    h2 { margin-top:2.2rem; font-size:1.2rem; }
+    p, li { color:var(--muted); }
+    ul { padding-left:1.25rem; }
+    a { color:var(--accent); }
+    footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line); font-size:.9rem; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Aplicación privada de uso personal</div>
+    <h1>Automatización de cuentas de cobro</h1>
+    <p>Esta aplicación automatiza un proceso administrativo mensual para su propietario. Utiliza Google Drive únicamente para consultar documentos Word autorizados, crear la cuenta de cobro del periodo correspondiente y guardar el nuevo archivo en la ubicación configurada por el usuario.</p>
+
+    <h2>Funcionamiento</h2>
+    <ul>
+      <li>Lee la plantilla y las cuentas de cobro autorizadas por el propietario.</li>
+      <li>Genera el documento del mes con su fecha y numeración correspondientes.</li>
+      <li>Guarda únicamente el documento Word nuevo en Google Drive.</li>
+      <li>Crea un PDF temporal para enviarlo a los destinatarios configurados por el propietario.</li>
+    </ul>
+
+    <h2>Uso limitado</h2>
+    <p>No es un servicio ofrecido al público. La aplicación está destinada exclusivamente al propietario y a las cuentas de Google que este autorice expresamente.</p>
+
+    <p><a href="/privacidad.html">Consultar la política de privacidad</a></p>
+
+    <footer>
+      Responsable de la aplicación: propietario de la cuenta
+      <a href="https://github.com/oxigen911">oxigen911</a>.
+    </footer>
+  </main>
+</body>
+</html>
